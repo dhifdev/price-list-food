@@ -8,25 +8,19 @@
     <title>Price List Menu</title>
   </head>
   <body class="bg-slate-300 p-5">
-    <header
-      class="w-full mt-4 text-center text-xl p-2 bg-gray-500 text-white m-auto"
-    >
-      <h1>MENU DIV FOOD</h1>
-    </header>
-    <main class="m-auto mt-16 rounded-lg max-w-2xl max-h-full bg-white p-8">
+    <main class="m-auto rounded-lg max-w-2xl max-h-full bg-white p-8">
+      <h1 class="font-bold text-2xl text-center mb-4">Go Puud</h1>
       <ul>
         <li
           id="item"
           class="item list-none flex border-4 border-sky-400 justify-between rounded-lg cursor-pointer p-3 px-2 font-bold mb-3 hover:bg-sky-400 hover:text-white"
         >
-          <img
-            width="100px"
-            height="100px"
-            src="./assets/img/bakso-pentol.png"
-          />
+          <img width="80px" height="80px" src="./assets/img/bakso-pentol.png" />
           <div class="mr-40 ml-6">
             Bakso Pentol
-            <p class="font-normal">Bakso yang terbuat dari biji pentol</p>
+            <p class="font-normal text-sm">
+              Bakso berbahan daging bercampur tepung kanji
+            </p>
           </div>
           <span class="mt-6 mr-4">Rp10.000</span>
         </li>
@@ -34,10 +28,12 @@
           id="item"
           class="item list-none flex border-4 border-sky-400 justify-between rounded-lg cursor-pointer p-3 px-2 font-bold mb-3 hover:bg-sky-400 hover:text-white"
         >
-          <img width="100px" height="80px" src="./assets/img/basreng.png" />
+          <img width="80px" height="80px" src="./assets/img/basreng.png" />
           <div class="mr-44 ml-6">
             Basreng
-            <p class="font-normal">Bakso yang terbuat dari biji pentol</p>
+            <p class="font-normal text-sm">
+              Bakso ikan yang diiris tipis, lalu digoreng kering
+            </p>
           </div>
           <span class="mr-4 mt-6">Rp8.000</span>
         </li>
@@ -45,10 +41,12 @@
           id="item"
           class="item list-none flex border-4 border-sky-400 justify-between rounded-lg cursor-pointer p-3 px-2 font-bold mb-3 hover:bg-sky-400 hover:text-white"
         >
-          <img width="100px" height="80px" src="./assets/img/seblak.png" />
+          <img width="80px" height="80px" src="./assets/img/seblak.png" />
           <div class="mr-44 ml-6">
             Seblak
-            <p class="font-normal">Bakso yang terbuat dari biji pentol</p>
+            <p class="font-normal text-sm">
+              Kerupuk mentah dengan bumbu bawang putih dan cabai rawit
+            </p>
           </div>
           <span class="mr-4 mt-6">Rp12.000</span>
         </li>
@@ -56,10 +54,12 @@
           id="item"
           class="item list-none flex border-4 border-sky-400 justify-between rounded-lg cursor-pointer p-3 px-2 font-bold mb-3 hover:bg-sky-400 hover:text-white"
         >
-          <img width="100px" height="80px" src="./assets/img/Kebab.png" />
+          <img width="80px" height="80px" src="./assets/img/Kebab.png" />
           <div class="mr-44 ml-6">
             Kebab
-            <p class="font-normal">Bakso yang terbuat dari biji pentol</p>
+            <p class="font-normal text-sm">
+              Kebab terdiri dari daging yang dipotong atau digiling
+            </p>
           </div>
           <span class="mr-4 mt-6">Rp15.000</span>
         </li>
@@ -67,19 +67,28 @@
           id="item"
           class="item list-none flex border-4 border-sky-400 justify-between rounded-lg cursor-pointer p-3 px-2 font-bold mb-3 hover:bg-sky-400 hover:text-white"
         >
-          <img width="100px" height="80px" src="./assets/img/takoyaki.png" />
+          <img width="80px" height="80px" src="./assets/img/takoyaki.png" />
           <div class="mr-44 ml-6">
             Takoyaki
-            <p class="font-normal">Bakso yang terbuat dari biji pentol</p>
+            <p class="font-normal text-sm">
+              Adonan tepung yang dibentuk bola kemudian diisi gurita dan dibakar
+            </p>
           </div>
           <span class="mr-4 mt-6">Rp7.000</span>
         </li>
         <li id="last-item" class="font-bold">
-          Total <span class="float-right">Rp 0</span>
+          Total
+          <span class="float-right mr-4 flex">Rp 0</span>
         </li>
       </ul>
+      <img
+        class="float-left mt-4 mr-4 cursor-pointer"
+        width="35px"
+        height="35px"
+        src="./assets/img/cart.svg"
+      />
       <div
-        class="w-18 mt-4 rounded-lg items-center justify-center flex font-bold m-auto h-10 text-center bg-sky-400 hover:bg-sky-500 hover:text-white"
+        class="w-18 mt-4 rounded-lg items-center justify-center flex font-bold m-auto h-10 cursor-pointer text-center bg-sky-400 hover:bg-sky-500 hover:text-white"
       >
         Checkout
       </div>

@@ -48,7 +48,6 @@ function setItemOrder(index, elemen) {
     itemOrder[index].dipesan = false;
     elemen.style.backgroundColor = "initial";
     elemen.style.color = "black";
-    // elemen.classList.add("hover:bg-sky-400");
     totalOrder = totalOrder - itemOrder[index].harga;
   }
   textTotal.innerHTML =
