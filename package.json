@@ -1,0 +1,7 @@
+{
+  "author": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "tailwindcss": "^3.3.2"
+  }
+}
