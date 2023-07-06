@@ -46,9 +46,11 @@ function setItemOrder(index, elemen) {
     totalOrder = totalOrder + itemOrder[index].harga;
   } else {
     itemOrder[index].dipesan = false;
-    elemen.style.backgroundColor = "rgb(56 189 248)";
+    elemen.style.backgroundColor = "initial";
     elemen.style.color = "black";
+    // elemen.classList.add("hover:bg-sky-400");
     totalOrder = totalOrder - itemOrder[index].harga;
   }
-  textTotal.innerHTML = "Total <span> Rp " + totalOrder + "</span>";
+  textTotal.innerHTML =
+    "Total <span style='float:right'> Rp " + totalOrder + "</span>";
 }
