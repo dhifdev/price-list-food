@@ -51,5 +51,5 @@ function setItemOrder(index, elemen) {
     totalOrder = totalOrder - itemOrder[index].harga;
   }
   textTotal.innerHTML =
-    "Total <span style='float:right'> Rp " + totalOrder + "</span>";
+    "Total Pesanan <span style='float:right'> Rp " + totalOrder + "</span>";
 }
